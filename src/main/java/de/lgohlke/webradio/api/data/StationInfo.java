@@ -9,7 +9,7 @@ import java.util.List;
 @Getter
 @JsonIgnoreProperties(ignoreUnknown = true)
 @ToString
-class StationInfo {
+public class StationInfo {
     private String logo300x300 = "";
     private List<StreamUrl> streamUrls = List.of();
 }
