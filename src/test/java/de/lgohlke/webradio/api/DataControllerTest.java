@@ -4,8 +4,6 @@ import de.lgohlke.webradio.api.data.StationInfo;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
 
-import java.util.concurrent.TimeUnit;
-
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
@@ -22,8 +20,6 @@ public class DataControllerTest {
 
         controller.getStationInfo(100);
         controller.getStationInfo(100);
-
-        TimeUnit.SECONDS.sleep(50);
 
         verify(service, times(1)).fetchStationInfo(100);
     }
