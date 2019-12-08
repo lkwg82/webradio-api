@@ -1,0 +1,3350 @@
+{
+  "numberPages": 2,
+  "categories": [
+    {
+      "systemName": "SEARCH_FACETTE",
+      "name": "Top Results",
+      "matches": [
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Südamerika"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Argentinien"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "San Juan"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Musik"
+            }
+          ],
+          "description": null,
+          "logo100x100": "https://static.radio.de/images/broadcasts/af/83/36918/c100.png",
+          "shortDescription": null,
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/af/83/36918/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Hits"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/af/83/36918/c175.png",
+          "name": {
+            "matchHighlights": [
+              {
+                "endOffset": 6,
+                "startOffset": 0,
+                "text": "Cosmos"
+              }
+            ],
+            "value": "Cosmos FM San Juan"
+          },
+          "station": {
+            "continent": "Südamerika",
+            "country": "Argentinien",
+            "logo300x300": "https://static.radio.de/images/broadcasts/af/83/36918/c300.png",
+            "city": "San Juan",
+            "stationType": "radio_station",
+            "description": "",
+            "language": [
+              "Spanisch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/af/83/36918/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://server.ohradio.com.ar:9988/stream/1/",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "AAC",
+                "bitRate": 44,
+                "idBroadcast": 36918,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120555,
+                "streamStatus": "VALID",
+                "contentType": "audio/aacp"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Hits"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/af/83/36918/c175.png",
+            "adParams": {
+              "st_city": [
+                "San Juan"
+              ],
+              "languages": [
+                "Spanisch"
+              ],
+              "genres": [
+                "Hits"
+              ],
+              "topics": [
+                "Musik"
+              ],
+              "st_cont": [
+                "Südamerika"
+              ],
+              "station": [
+                "cosmossanjuan"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [],
+              "st_region": [
+                "San Juan"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Argentinien"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://server.ohradio.com.ar:9988/stream/1/",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "AAC",
+                "bitRate": 44,
+                "idBroadcast": 36918,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120555,
+                "streamStatus": "VALID",
+                "contentType": "audio/aacp"
+              }
+            ],
+            "alias": "",
+            "rank": 16965,
+            "id": 36918,
+            "types": [
+              "Radiosender"
+            ],
+            "website": "https://fmcosmos.com/",
+            "topics": [
+              "Musik"
+            ],
+            "shortDescription": "",
+            "logo44x44": "https://static.radio.de/images/broadcasts/af/83/36918/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "Cosmos FM San Juan",
+            "subdomain": "cosmossanjuan",
+            "lastModified": "2019-12-08T03:38:06.000Z",
+            "family": [],
+            "region": "San Juan",
+            "frequencies": []
+          },
+          "rank": 17134,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmossanjuan"
+          },
+          "id": 36918
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": null,
+          "stationType": "RADIO_STATION",
+          "topics": [],
+          "description": null,
+          "logo100x100": "https://static.radio.de/images/broadcasts/89/f1/104179/2/c100.png",
+          "shortDescription": null,
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/89/f1/104179/2/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "World"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/89/f1/104179/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "qosmos"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/89/f1/104179/2/c300.png",
+            "city": "",
+            "stationType": "radio_station",
+            "description": "",
+            "language": [
+              "Deutsch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/89/f1/104179/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "https://stream.laut.fm/qosmos?ref=radiode",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 104179,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 127396,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "World"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/89/f1/104179/2/c175.png",
+            "adParams": {
+              "st_city": [],
+              "languages": [
+                "Deutsch"
+              ],
+              "genres": [
+                "World"
+              ],
+              "topics": [],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "lautfm-qosmos"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [],
+              "st_region": [],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "https://stream.laut.fm/qosmos?ref=radiode",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 104179,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 127396,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 13367,
+            "id": 104179,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://laut.fm/qosmos",
+            "topics": [],
+            "shortDescription": "",
+            "logo44x44": "https://static.radio.de/images/broadcasts/89/f1/104179/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "qosmos",
+            "subdomain": "lautfm-qosmos",
+            "lastModified": "2019-12-08T03:33:42.000Z",
+            "family": [],
+            "region": "",
+            "frequencies": []
+          },
+          "rank": 13933,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "lautfm-qosmos"
+          },
+          "id": 104179
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Fremdsprache - Sprache"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. Der Sound der Welt."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/8b/db/2459/2/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Von Politik über Alltag und Szene aus den europäischen Metropolen - dazu World Music von Arabien über den Balkan bis nach Brasilien. Der Sound der Welt."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/8b/db/2459/2/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "World"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/8b/db/2459/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/8b/db/2459/2/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. Der Sound der Welt.",
+            "language": [
+              "Deutsch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/8b/db/2459/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRN3S",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 2459,
+                "sortOrder": 0,
+                "streamFormat": "ICECAST",
+                "id": 84563,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              },
+              {
+                "streamUrl": "http://addrad.io/4WRN32",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "MONO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 56,
+                "idBroadcast": 2459,
+                "sortOrder": 1,
+                "streamFormat": "ICECAST",
+                "id": 84564,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "World",
+              "Pop"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/8b/db/2459/2/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Deutsch"
+              ],
+              "genres": [
+                "Pop",
+                "World"
+              ],
+              "topics": [
+                "Fremdsprache - Sprache"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmo"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRN3S",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 2459,
+                "sortOrder": 0,
+                "streamFormat": "ICECAST",
+                "id": 84563,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              },
+              {
+                "streamUrl": "http://addrad.io/4WRN32",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "MONO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 56,
+                "idBroadcast": 2459,
+                "sortOrder": 1,
+                "streamFormat": "ICECAST",
+                "id": 84564,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "COSMO;;COSMP;;Funkhaus Europa;;fhe;;funk haus europa;;funkhaus-europa",
+            "rank": 169,
+            "id": 2459,
+            "types": [
+              "Radiosender"
+            ],
+            "website": "http://www1.wdr.de/radio/funkhauseuropa/index.html",
+            "topics": [
+              "Fremdsprache - Sprache"
+            ],
+            "shortDescription": "Von Politik über Alltag und Szene aus den europäischen Metropolen - dazu World Music von Arabien über den Balkan bis nach Brasilien. Der Sound der Welt.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/8b/db/2459/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO",
+            "subdomain": "cosmo",
+            "lastModified": "2019-12-08T03:49:17.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 168,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmo"
+          },
+          "id": 2459
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Fremdsprache - Sprache"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/48/70/117838/2/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/48/70/117838/2/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Chillout"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/48/70/117838/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Chillout"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/48/70/117838/2/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Deutsch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/48/70/117838/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454pxj",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117838,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120863,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Chillout"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/48/70/117838/2/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Deutsch"
+              ],
+              "genres": [
+                "Chillout"
+              ],
+              "topics": [
+                "Fremdsprache - Sprache"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmochillout"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454pxj",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117838,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120863,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 4908,
+            "id": 117838,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/chill-out-channel-100.html",
+            "topics": [
+              "Fremdsprache - Sprache"
+            ],
+            "shortDescription": "Der Sound der Welt.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/48/70/117838/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Chillout",
+            "subdomain": "cosmochillout",
+            "lastModified": "2019-12-08T03:05:30.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 4618,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmochillout"
+          },
+          "id": 117838
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Fremdsprache - Sprache"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/ab/ea/117837/2/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/ab/ea/117837/2/c44.png",
+          "genres": [],
+          "logo175x175": "https://static.radio.de/images/broadcasts/ab/ea/117837/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Afrobeat"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/ab/ea/117837/2/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Deutsch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/ab/ea/117837/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454q36",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117837,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120862,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [],
+            "logo175x175": "https://static.radio.de/images/broadcasts/ab/ea/117837/2/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Deutsch"
+              ],
+              "genres": [],
+              "topics": [
+                "Fremdsprache - Sprache"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmoafrobeat"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454q36",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117837,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120862,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 6512,
+            "id": 117837,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/afrobeats-channel-106.html",
+            "topics": [
+              "Fremdsprache - Sprache"
+            ],
+            "shortDescription": "Der Sound der Welt.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/ab/ea/117837/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Afrobeat",
+            "subdomain": "cosmoafrobeat",
+            "lastModified": "2019-12-08T03:38:07.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 5985,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmoafrobeat"
+          },
+          "id": 117837
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "DJ"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Kultur"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Musik"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. Der Sound der Welt."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/c5/37/36472/1/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Mix-Tapes und DJ-Sets. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. "
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/c5/37/36472/1/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Electro"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/c5/37/36472/1/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Selektor"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/c5/37/36472/1/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. Der Sound der Welt.",
+            "language": [
+              "Deutsch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/c5/37/36472/1/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRNcg",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 36472,
+                "sortOrder": 0,
+                "streamFormat": "ICECAST",
+                "id": 84574,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Pop",
+              "Electro"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/c5/37/36472/1/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Deutsch"
+              ],
+              "genres": [
+                "Electro",
+                "Pop"
+              ],
+              "topics": [
+                "DJ",
+                "Kultur",
+                "Musik"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmoselektor"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRNcg",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 36472,
+                "sortOrder": 0,
+                "streamFormat": "ICECAST",
+                "id": 84574,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 7664,
+            "id": 36472,
+            "types": [
+              "Webradio"
+            ],
+            "website": "http://www1.wdr.de/radio/cosmo/programm/sendungen/selektor/selektor-234.html",
+            "topics": [
+              "DJ",
+              "Kultur",
+              "Musik"
+            ],
+            "shortDescription": "Mix-Tapes und DJ-Sets. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. ",
+            "logo44x44": "https://static.radio.de/images/broadcasts/c5/37/36472/1/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Selektor",
+            "subdomain": "cosmoselektor",
+            "lastModified": "2019-12-08T04:04:17.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 7100,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmoselektor"
+          },
+          "id": 36472
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Fremdsprache - Sprache"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/14/ce/117841/2/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/14/ce/117841/2/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Urban"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/14/ce/117841/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Trap"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/14/ce/117841/2/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Deutsch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/14/ce/117841/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454psw",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117841,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120866,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Urban"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/14/ce/117841/2/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Deutsch"
+              ],
+              "genres": [
+                "Urban"
+              ],
+              "topics": [
+                "Fremdsprache - Sprache"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmotrap"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454psw",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117841,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120866,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 9078,
+            "id": 117841,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/trap-channel-100.html",
+            "topics": [
+              "Fremdsprache - Sprache"
+            ],
+            "shortDescription": "Der Sound der Welt.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/14/ce/117841/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Trap",
+            "subdomain": "cosmotrap",
+            "lastModified": "2019-12-08T03:15:14.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 9837,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmotrap"
+          },
+          "id": 117841
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Fremdsprache - Sprache"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/3f/05/117839/2/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/3f/05/117839/2/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Electro"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/3f/05/117839/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Dance"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/3f/05/117839/2/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Deutsch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/3f/05/117839/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454pvq",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117839,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120864,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Electro"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/3f/05/117839/2/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Deutsch"
+              ],
+              "genres": [
+                "Electro"
+              ],
+              "topics": [
+                "Fremdsprache - Sprache"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmodance"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454pvq",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117839,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120864,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 11900,
+            "id": 117839,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/dance-channel-100.html",
+            "topics": [
+              "Fremdsprache - Sprache"
+            ],
+            "shortDescription": "Der Sound der Welt.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/3f/05/117839/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Dance",
+            "subdomain": "cosmodance",
+            "lastModified": "2019-12-08T03:38:07.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 12109,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmodance"
+          },
+          "id": 117839
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Fremdsprache - Sprache"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/72/e8/117842/2/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/72/e8/117842/2/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Hits"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/72/e8/117842/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Special"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/72/e8/117842/2/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Deutsch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/72/e8/117842/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454q4z",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117842,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120867,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Hits"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/72/e8/117842/2/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Deutsch"
+              ],
+              "genres": [
+                "Hits"
+              ],
+              "topics": [
+                "Fremdsprache - Sprache"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmospecial"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454q4z",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117842,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120867,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 15064,
+            "id": 117842,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/special-channel-104.html",
+            "topics": [
+              "Fremdsprache - Sprache"
+            ],
+            "shortDescription": "Der Sound der Welt.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/72/e8/117842/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Special",
+            "subdomain": "cosmospecial",
+            "lastModified": "2019-12-08T03:21:02.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 15282,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmospecial"
+          },
+          "id": 117842
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Kultur"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Musik"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: aus Italien auf italienisch. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/e9/de/7497/3/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Hier gibt es den Sound der Welt und Informationen direkt aus Italien auf italienisch."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/e9/de/7497/3/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/e9/de/7497/3/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Radio Colonia"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/e9/de/7497/3/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "Der Sound der Welt: aus Italien auf italienisch. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Italienisch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/e9/de/7497/3/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/444yybz",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 7497,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101732,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Pop"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/e9/de/7497/3/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Italienisch"
+              ],
+              "genres": [
+                "Pop"
+              ],
+              "topics": [
+                "Kultur",
+                "Musik"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmoradiocolonia"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/444yybz",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 7497,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101732,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 2091,
+            "id": 7497,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/sendungen/radio-colonia/index.html",
+            "topics": [
+              "Kultur",
+              "Musik"
+            ],
+            "shortDescription": "Hier gibt es den Sound der Welt und Informationen direkt aus Italien auf italienisch.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/e9/de/7497/3/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Radio Colonia",
+            "subdomain": "cosmoradiocolonia",
+            "lastModified": "2019-12-08T01:54:48.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 2260,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmoradiocolonia"
+          },
+          "id": 7497
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Livemusik"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. Der Sound der Welt."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/d4/3f/103171/1/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. Der Sound der Welt."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/d4/3f/103171/1/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "World"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/d4/3f/103171/1/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - COSMO Live"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/d4/3f/103171/1/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. Der Sound der Welt.",
+            "language": [
+              "Deutsch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/d4/3f/103171/1/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRMWs",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 103171,
+                "sortOrder": 0,
+                "streamFormat": "ICECAST",
+                "id": 84606,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "World",
+              "Pop"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/d4/3f/103171/1/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Deutsch"
+              ],
+              "genres": [
+                "Pop",
+                "World"
+              ],
+              "topics": [
+                "Livemusik"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmocoslive"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRMWs",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 103171,
+                "sortOrder": 0,
+                "streamFormat": "ICECAST",
+                "id": 84606,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 4110,
+            "id": 103171,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/sendungen/live/index.html",
+            "topics": [
+              "Livemusik"
+            ],
+            "shortDescription": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. Der Sound der Welt.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/d4/3f/103171/1/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - COSMO Live",
+            "subdomain": "cosmocoslive",
+            "lastModified": "2019-12-08T03:15:02.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 4109,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmocoslive"
+          },
+          "id": 103171
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Kultur"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das kurdische Programm von COSMO. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/40/d4/103170/2/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das kurdische Programm von COSMO."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/40/d4/103170/2/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "World"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/40/d4/103170/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Bernama Kurdî"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/40/d4/103170/2/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "Der Sound der Welt: das kurdische Programm von COSMO. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Kurdisch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/40/d4/103170/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRMVD",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 103170,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101728,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "World",
+              "Pop"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/40/d4/103170/2/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Kurdisch"
+              ],
+              "genres": [
+                "Pop",
+                "World"
+              ],
+              "topics": [
+                "Kultur"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmobernamakurdi"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRMVD",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 103170,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101728,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 5931,
+            "id": 103170,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/sendungen/bernama-kurdi/index.html",
+            "topics": [
+              "Kultur"
+            ],
+            "shortDescription": "Der Sound der Welt: das kurdische Programm von COSMO.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/40/d4/103170/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Bernama Kurdî",
+            "subdomain": "cosmobernamakurdi",
+            "lastModified": "2019-12-08T04:04:53.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 5507,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmobernamakurdi"
+          },
+          "id": 103170
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Fremdsprache - Sprache"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das türkische Programm von COSMO. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/40/b5/2299/2/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das türkische Programm von COSMO."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/40/b5/2299/2/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/40/b5/2299/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Köln Radyosu"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/40/b5/2299/2/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "Der Sound der Welt: das türkische Programm von COSMO. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Türkisch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/40/b5/2299/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/444yxyh",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 2299,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101730,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Pop"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/40/b5/2299/2/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Türkisch"
+              ],
+              "genres": [
+                "Pop"
+              ],
+              "topics": [
+                "Fremdsprache - Sprache"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmokoelnradyosu"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/444yxyh",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 2299,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101730,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 6140,
+            "id": 2299,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/sendungen/koeln-radyosu/index.html",
+            "topics": [
+              "Fremdsprache - Sprache"
+            ],
+            "shortDescription": "Der Sound der Welt: das türkische Programm von COSMO.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/40/b5/2299/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Köln Radyosu",
+            "subdomain": "cosmokoelnradyosu",
+            "lastModified": "2019-12-08T04:02:42.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 6103,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmokoelnradyosu"
+          },
+          "id": 2299
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Fremdsprache - Sprache"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/7c/3d/117840/2/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/7c/3d/117840/2/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Hits"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/7c/3d/117840/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Neu in COSMO"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/7c/3d/117840/2/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Deutsch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/7c/3d/117840/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454pzc",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117840,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120865,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Hits"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/7c/3d/117840/2/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Deutsch"
+              ],
+              "genres": [
+                "Hits"
+              ],
+              "topics": [
+                "Fremdsprache - Sprache"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmoneu"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4454pzc",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 44100,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 117840,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 120865,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 6066,
+            "id": 117840,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/musik/musiksendungen/neu-in-cosmo-channel-102.html",
+            "topics": [
+              "Fremdsprache - Sprache"
+            ],
+            "shortDescription": "Der Sound der Welt.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/7c/3d/117840/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Neu in COSMO",
+            "subdomain": "cosmoneu",
+            "lastModified": "2019-12-08T03:20:13.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 6133,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmoneu"
+          },
+          "id": 117840
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Musik"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Kultur"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das Südosteuropa-Magazin. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/9f/69/36480/3/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das Südosteuropa-Magazin von WDR COSMO."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/9f/69/36480/3/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "World"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/9f/69/36480/3/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Radio Forum"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/9f/69/36480/3/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "Der Sound der Welt: das Südosteuropa-Magazin. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Deutsch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/9f/69/36480/3/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/444yy6h",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 36480,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101731,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "World",
+              "Pop"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/9f/69/36480/3/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Deutsch"
+              ],
+              "genres": [
+                "Pop",
+                "World"
+              ],
+              "topics": [
+                "Kultur",
+                "Musik"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmoradioforum"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/444yy6h",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 36480,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101731,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 10860,
+            "id": 36480,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/sprachen/bosnisch-kroatisch-serbisch/index.html",
+            "topics": [
+              "Musik",
+              "Kultur"
+            ],
+            "shortDescription": "Der Sound der Welt: das Südosteuropa-Magazin von WDR COSMO.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/9f/69/36480/3/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Radio Forum",
+            "subdomain": "cosmoradioforum",
+            "lastModified": "2019-12-08T04:04:53.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 10427,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmoradioforum"
+          },
+          "id": 36480
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Musik"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Kultur"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das griechische Magazin. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/81/fe/36470/2/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das griechische Magazin. "
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/81/fe/36470/2/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/81/fe/36470/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Elliniko Randevou"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/81/fe/36470/2/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "Der Sound der Welt: das griechische Magazin. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Griechisch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/81/fe/36470/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRMYW",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 36470,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101729,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Pop"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/81/fe/36470/2/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Griechisch"
+              ],
+              "genres": [
+                "Pop"
+              ],
+              "topics": [
+                "Kultur",
+                "Musik"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmoellinikorandevou"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRMYW",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 36470,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101729,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 9351,
+            "id": 36470,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/sendungen/ellinikorandevou/index.html",
+            "topics": [
+              "Musik",
+              "Kultur"
+            ],
+            "shortDescription": "Der Sound der Welt: das griechische Magazin. ",
+            "logo44x44": "https://static.radio.de/images/broadcasts/81/fe/36470/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Elliniko Randevou",
+            "subdomain": "cosmoellinikorandevou",
+            "lastModified": "2019-12-08T03:51:03.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 17132,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmoellinikorandevou"
+          },
+          "id": 36470
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Kultur"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Musik"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das spanische Magazin von COSMO. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/0d/99/36471/4/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/0d/99/36471/4/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/0d/99/36471/4/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Estación Sur"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/0d/99/36471/4/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "Der Sound der Welt: das spanische Magazin von COSMO. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Spanisch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/0d/99/36471/4/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRM_p",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 36471,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101724,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Pop"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/0d/99/36471/4/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Spanisch"
+              ],
+              "genres": [
+                "Pop"
+              ],
+              "topics": [
+                "Kultur",
+                "Musik"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmoestacionsur"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRM_p",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 36471,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101724,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 16963,
+            "id": 36471,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/sendungen/estacionsur/index.html",
+            "topics": [
+              "Kultur",
+              "Musik"
+            ],
+            "shortDescription": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/0d/99/36471/4/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Estación Sur",
+            "subdomain": "cosmoestacionsur",
+            "lastModified": "2019-12-08T03:33:43.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 24820,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmoestacionsur"
+          },
+          "id": 36471
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Kultur"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das russische Programm von COSMO. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/fd/1a/103174/3/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das russische Programm von COSMO. "
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/fd/1a/103174/3/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/fd/1a/103174/3/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Radio po russki"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/fd/1a/103174/3/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "Der Sound der Welt: das russische Programm von COSMO. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Russisch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/fd/1a/103174/3/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRN78",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 103174,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101734,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Pop"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/fd/1a/103174/3/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Russisch"
+              ],
+              "genres": [
+                "Pop"
+              ],
+              "topics": [
+                "Kultur"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmoradiorusski"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRN78",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 103174,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101734,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 14034,
+            "id": 103174,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/sendungen/radio-po-russki/index.html",
+            "topics": [
+              "Kultur"
+            ],
+            "shortDescription": "Der Sound der Welt: das russische Programm von COSMO. ",
+            "logo44x44": "https://static.radio.de/images/broadcasts/fd/1a/103174/3/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Radio po russki",
+            "subdomain": "cosmoradiorusski",
+            "lastModified": "2019-12-08T03:15:16.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 13435,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmoradiorusski"
+          },
+          "id": 103174
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Kultur"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das polnische Programm von COSMO. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen."
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/2b/e7/103173/3/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das polnische Programm von COSMO."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/2b/e7/103173/3/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/2b/e7/103173/3/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Radio po polsku"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/2b/e7/103173/3/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "Der Sound der Welt: das polnische Programm von COSMO. WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen.",
+            "language": [
+              "Polnisch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/2b/e7/103173/3/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRN5w",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 103173,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101733,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Pop"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/2b/e7/103173/3/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Polnisch"
+              ],
+              "genres": [
+                "Pop"
+              ],
+              "topics": [
+                "Kultur"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmoradiopopolsku"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRN5w",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 103173,
+                "sortOrder": 0,
+                "streamFormat": "UNKNOWN",
+                "id": 101733,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 24708,
+            "id": 103173,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/programm/sendungen/radio-po-polsku/index.html",
+            "topics": [
+              "Kultur"
+            ],
+            "shortDescription": "Der Sound der Welt: das polnische Programm von COSMO.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/2b/e7/103173/3/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Radio po polsku",
+            "subdomain": "cosmoradiopopolsku",
+            "lastModified": "2019-12-08T03:15:15.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 24847,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmoradiopopolsku"
+          },
+          "id": 103173
+        },
+        {
+          "continent": {
+            "matchHighlights": [],
+            "value": "Europa"
+          },
+          "country": {
+            "matchHighlights": [],
+            "value": "Deutschland"
+          },
+          "city": {
+            "matchHighlights": [],
+            "value": "Köln"
+          },
+          "stationType": "RADIO_STATION",
+          "topics": [
+            {
+              "matchHighlights": [],
+              "value": "Kultur"
+            }
+          ],
+          "description": {
+            "matchHighlights": [],
+            "value": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. Der Sound der Welt!"
+          },
+          "logo100x100": "https://static.radio.de/images/broadcasts/92/d9/36493/2/c100.png",
+          "shortDescription": {
+            "matchHighlights": [],
+            "value": "Der Sound der Welt: das arabische Magazin."
+          },
+          "nowPlaying": null,
+          "logo44x44": "https://static.radio.de/images/broadcasts/92/d9/36493/2/c44.png",
+          "genres": [
+            {
+              "matchHighlights": [],
+              "value": "Oriental"
+            },
+            {
+              "matchHighlights": [],
+              "value": "Pop"
+            }
+          ],
+          "logo175x175": "https://static.radio.de/images/broadcasts/92/d9/36493/2/c175.png",
+          "name": {
+            "matchHighlights": [],
+            "value": "COSMO - Al-Saut Al-Arabi"
+          },
+          "station": {
+            "continent": "Europa",
+            "country": "Deutschland",
+            "logo300x300": "https://static.radio.de/images/broadcasts/92/d9/36493/2/c300.png",
+            "city": "Köln",
+            "stationType": "radio_station",
+            "description": "WDR COSMO ist die Radio-Alternative für Kosmopoliten: Global Pop und Stimmen aus aller Welt für alle, die wirklich Neues entdecken wollen. Der Sound der Welt!",
+            "language": [
+              "Arabisch"
+            ],
+            "logo100x100": "https://static.radio.de/images/broadcasts/92/d9/36493/2/c100.png",
+            "seoTitle": "",
+            "streamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRMS8",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 36493,
+                "sortOrder": 0,
+                "streamFormat": "ICECAST",
+                "id": 84560,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              },
+              {
+                "streamUrl": "http://addrad.io/4WRMRk",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "MONO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 56,
+                "idBroadcast": 36493,
+                "sortOrder": 1,
+                "streamFormat": "ICECAST",
+                "id": 84561,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "enabled": true,
+            "playable": "PLAYABLE",
+            "genres": [
+              "Oriental",
+              "Pop"
+            ],
+            "logo175x175": "https://static.radio.de/images/broadcasts/92/d9/36493/2/c175.png",
+            "adParams": {
+              "st_city": [
+                "Köln"
+              ],
+              "languages": [
+                "Arabisch"
+              ],
+              "genres": [
+                "Oriental",
+                "Pop"
+              ],
+              "topics": [
+                "Kultur"
+              ],
+              "st_cont": [
+                "Europa"
+              ],
+              "station": [
+                "cosmoalsaut"
+              ],
+              "advertising": [
+                "true"
+              ],
+              "family": [
+                "COSMO"
+              ],
+              "st_region": [
+                "Nordrhein-Westfalen"
+              ],
+              "type": [
+                "radio_station"
+              ],
+              "st_country": [
+                "Deutschland"
+              ]
+            },
+            "originalStreamUrls": [
+              {
+                "streamUrl": "http://addrad.io/4WRMS8",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "STEREO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 128,
+                "idBroadcast": 36493,
+                "sortOrder": 0,
+                "streamFormat": "ICECAST",
+                "id": 84560,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              },
+              {
+                "streamUrl": "http://addrad.io/4WRMRk",
+                "loadbalanced": false,
+                "metaDataAvailable": false,
+                "playingMode": "MONO",
+                "type": "STREAM",
+                "sampleRate": 48000,
+                "streamContentFormat": "MP3",
+                "bitRate": 56,
+                "idBroadcast": 36493,
+                "sortOrder": 1,
+                "streamFormat": "ICECAST",
+                "id": 84561,
+                "streamStatus": "VALID",
+                "contentType": "audio/mpeg"
+              }
+            ],
+            "alias": "",
+            "rank": 7958,
+            "id": 36493,
+            "types": [
+              "Webradio"
+            ],
+            "website": "https://www1.wdr.de/radio/cosmo/sprachen/arabisch/index.html",
+            "topics": [
+              "Kultur"
+            ],
+            "shortDescription": "Der Sound der Welt: das arabische Magazin.",
+            "logo44x44": "https://static.radio.de/images/broadcasts/92/d9/36493/2/c44.png",
+            "numberEpisodes": 0,
+            "podcastUrls": [],
+            "hideReferer": false,
+            "name": "COSMO - Al-Saut Al-Arabi",
+            "subdomain": "cosmoalsaut",
+            "lastModified": "2019-12-08T03:33:47.000Z",
+            "family": [
+              "COSMO"
+            ],
+            "region": "Nordrhein-Westfalen",
+            "frequencies": []
+          },
+          "rank": 8755,
+          "subdomain": {
+            "matchHighlights": [],
+            "value": "cosmoalsaut"
+          },
+          "id": 36493
+        }
+      ],
+      "numberMatches": 24
+    }
+  ],
+  "id": "queryFacette"
+}

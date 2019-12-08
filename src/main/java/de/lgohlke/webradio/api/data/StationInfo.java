@@ -10,5 +10,7 @@ import java.util.List;
 public class StationInfo {
     private String logo300x300 = "";
     private String name = "";
+    private String description = "";
+    private String shortDescription = "";
     private List<StreamUrl> streamUrls = List.of();
 }
