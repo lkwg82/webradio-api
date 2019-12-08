@@ -1,1 +1,2 @@
 #logging.level.ROOT: debug
+server.compression.enabled: true
