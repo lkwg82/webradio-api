@@ -14,6 +14,8 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
+import java.util.List;
+
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -31,7 +33,7 @@ public class DataControllerIT {
 
     @Test
     @SneakyThrows
-    void shouldCallDataService() {
+    void shouldFetchStationInfo() {
         var info = new StationInfo();
         info.setName("test");
         when(dataService.fetchStationInfo(100)).thenReturn(info);
@@ -41,6 +43,18 @@ public class DataControllerIT {
                .andExpect(status().is(200))
                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
                .andExpect(jsonPath("$.name").value("test"))
+        ;
+    }
+
+    @Test
+    @SneakyThrows
+    void shouldQueryStations() {
+        when(dataService.queryForStations("test")).thenReturn(List.of());
+
+        mockMvc.perform(MockMvcRequestBuilders.get("/queryStations")
+                                              .queryParam("query", "test"))
+               .andExpect(status().is(200))
+               .andExpect(content().contentType(MediaType.APPLICATION_JSON))
         ;
     }
 }
