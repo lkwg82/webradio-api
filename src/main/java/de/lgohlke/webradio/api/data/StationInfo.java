@@ -11,5 +11,6 @@ import java.util.List;
 @ToString
 public class StationInfo {
     private String logo300x300 = "";
+    private String name = "";
     private List<StreamUrl> streamUrls = List.of();
 }

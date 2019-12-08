@@ -21,5 +21,6 @@ public class StationInfoTest {
 
         assertThat(stationInfo.getLogo300x300()).isNotBlank();
         assertThat(stationInfo.getStreamUrls()).isNotEmpty();
+        assertThat(stationInfo.getName()).isEqualTo("COSMO");
     }
 }
