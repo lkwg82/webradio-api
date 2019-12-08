@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 public class Result {
     private List<Categories> categories = List.of();
 
-    List<ResultMatch> getMatches() {
+    public List<ResultMatch> getMatches() {
         return categories.stream()
                          .map(Categories::getMatches)
                          .flatMap(List::stream)

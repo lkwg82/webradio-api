@@ -1,5 +1,7 @@
 package de.lgohlke.webradio.api;
 
+import de.lgohlke.webradio.api.data.Result;
+import de.lgohlke.webradio.api.data.ResultMatch;
 import de.lgohlke.webradio.api.data.StationInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.web.client.RestTemplateBuilder;
@@ -12,10 +14,14 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.nio.charset.StandardCharsets;
+import java.util.List;
+import java.util.Optional;
 
 @Service
 @Slf4j
 class DataService {
+    private static final String API_KEEEEY = "7bce309a37dc2527104e5ab7b0641c9f20a76aae";
+
     private final RestTemplate template = new RestTemplateBuilder()
             .rootUri("https://api.radio.de")
             .defaultHeader(HttpHeaders.USER_AGENT, "radio.de 4.14.0 (OnePlus/ONEPLUS A3003; Android 9; de_DE)")
@@ -26,7 +32,7 @@ class DataService {
     StationInfo fetchStationInfo(int stationId) {
 
         var uri = UriComponentsBuilder.fromPath("/info/v2/search/station")
-                                      .queryParam("apikey", "7bce309a37dc2527104e5ab7b0641c9f20a76aae")
+                                      .queryParam("apikey", API_KEEEEY)
                                       .queryParam("station", stationId)
                                       .queryParam("streamcontentformats", "mp3,aac")
                                       .queryParam("enrich", "true")
@@ -40,6 +46,28 @@ class DataService {
         } catch (InvalidMediaTypeException | HttpClientErrorException e) {
             log.error(e.getMessage(), e);
             return new StationInfo();
+        }
+    }
+
+    List<ResultMatch> queryForStations(String query) {
+        var uri = UriComponentsBuilder.fromPath("/info/v2/search/stationsonly")
+                                      .queryParam("apikey", API_KEEEEY)
+                                      .queryParam("query", query)
+                                      .queryParam("streamcontentformats", "mp3,aac")
+                                      .queryParam("enrich", "true")
+                                      .queryParam("locale", "de_DE")
+                                      .queryParam("pageindex", 1)
+                                      .queryParam("sizeperpage", "20")
+                                      .build()
+                                      .toString();
+        try {
+            var responseEntity = template.getForEntity(uri, Result.class);
+            return Optional.ofNullable(responseEntity.getBody())
+                           .map(Result::getMatches)
+                           .orElse(List.of());
+        } catch (InvalidMediaTypeException | HttpClientErrorException e) {
+            log.error(e.getMessage(), e);
+            return List.of();
         }
     }
 }
