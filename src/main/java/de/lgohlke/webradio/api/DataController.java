@@ -23,6 +23,7 @@ class DataController {
     private final DataService service;
 
     private final LoadingCache<Integer, StationInfo> cache = CacheBuilder.newBuilder()
+                                                                         .maximumSize(100)
                                                                          .refreshAfterWrite(Duration.ofHours(5))
                                                                          .build(new CacheLoader<>() {
                                                                              @Override
@@ -31,6 +32,18 @@ class DataController {
                                                                                  return service.fetchStationInfo(key);
                                                                              }
                                                                          });
+    private final LoadingCache<String, List<ResultMatch>> cache2 = CacheBuilder.newBuilder()
+                                                                               .maximumSize(100)
+                                                                               .refreshAfterWrite(Duration.ofHours(5))
+                                                                               .build(new CacheLoader<>() {
+                                                                                   @Override
+                                                                                   public List<ResultMatch> load(String key) {
+                                                                                       log.info("refreshing for {}",
+                                                                                                key);
+                                                                                       return service.queryForStations(
+                                                                                               key);
+                                                                                   }
+                                                                               });
 
     @GetMapping(value = "/stationInfo", produces = MediaType.APPLICATION_JSON_VALUE)
     StationInfo getStationInfo(@RequestParam("stationId") int stationId) throws ExecutionException {
@@ -38,7 +51,7 @@ class DataController {
     }
 
     @GetMapping(value = "/queryStations", produces = MediaType.APPLICATION_JSON_VALUE)
-    List<ResultMatch> queryStations(@RequestParam("query") String query) {
-        return service.queryForStations(query);
+    List<ResultMatch> queryStations(@RequestParam("query") String query) throws ExecutionException {
+        return cache2.get(query);
     }
 }
