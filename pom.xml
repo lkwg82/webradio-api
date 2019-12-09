@@ -63,6 +63,34 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>1.8.0</version>
+                <configuration>
+                    <container>
+                        <format>Docker</format>
+                        <workingDirectory>/data</workingDirectory>
+                        <appRoot>/data</appRoot>
+                        <user>1001</user>
+                    </container>
+                    <from>
+                        <image>adoptopenjdk/openjdk11-openj9:alpine-jre</image>
+                    </from>
+                    <to>
+                        <image>lkwg82/webradio-api</image>
+                    </to>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>build</id>
+                        <goals>
+                            <goal>dockerBuild</goal>
+                        </goals>
+                        <phase>package</phase>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
