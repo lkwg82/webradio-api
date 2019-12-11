@@ -19,7 +19,7 @@ public class ApiApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:3000", "https://lkwg82.github.io/webradio");
+                        .allowedOrigins("http://localhost:3000", "https://lkwg82.github.io");
             }
         };
     }
