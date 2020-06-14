@@ -1,15 +1,16 @@
 package de.lgohlke.webradio.api.data;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
-import lombok.Getter;
+import lombok.Data;
 
-@Getter
+@Data
 public class NowPlaying {
-    private String title = "<emptyTitle>";
+    private final String title;
     @JsonAlias("stationId")
-    private String stationName = "<emptyStationname>";
+    private final String stationName;
 
     public NowPlaying() {
+        this("<emptyTitle>", "<emptyStationname>");
     }
 
     public NowPlaying(String title, String stationName) {
