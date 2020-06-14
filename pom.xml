@@ -14,7 +14,7 @@
     <name>api</name>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>14</java.version>
     </properties>
 
     <dependencies>
@@ -80,7 +80,7 @@
                                     <version>[3.6,)</version>
                                 </requireMavenVersion>
                                 <requireJavaVersion>
-                                    <version>11</version>
+                                    <version>${java.version}</version>
                                 </requireJavaVersion>
                             </rules>
                             <fail>true</fail>
@@ -104,7 +104,7 @@
                         <user>1001</user>
                     </container>
                     <from>
-                        <image>adoptopenjdk/openjdk11-openj9:alpine-jre</image>
+                        <image>adoptopenjdk/openjdk14-openj9:alpine-jre</image>
                     </from>
                     <to>
                         <image>lkwg82/webradio-api</image>
