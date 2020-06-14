@@ -5,8 +5,7 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public
-class ResultMatch {
+public class ResultMatch {
     private int id = -1;
     private StationInfo station = new StationInfo();
 }
