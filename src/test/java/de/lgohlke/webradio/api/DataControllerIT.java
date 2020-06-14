@@ -1,5 +1,6 @@
 package de.lgohlke.webradio.api;
 
+import de.lgohlke.webradio.api.data.NowPlaying;
 import de.lgohlke.webradio.api.data.StationInfo;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
@@ -17,9 +18,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import java.util.List;
 
 import static org.mockito.Mockito.when;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
@@ -39,10 +38,10 @@ public class DataControllerIT {
         when(dataService.fetchStationInfo(100)).thenReturn(info);
 
         mockMvc.perform(MockMvcRequestBuilders.get("/stationInfo")
-                                              .queryParam("stationId", 100 + ""))
-               .andExpect(status().is(200))
-               .andExpect(content().contentType(MediaType.APPLICATION_JSON))
-               .andExpect(jsonPath("$.name").value("test"))
+                .queryParam("stationId", 100 + ""))
+                .andExpect(status().is(200))
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.name").value("test"))
         ;
     }
 
@@ -52,9 +51,24 @@ public class DataControllerIT {
         when(dataService.queryForStations("test")).thenReturn(List.of());
 
         mockMvc.perform(MockMvcRequestBuilders.get("/queryStations")
-                                              .queryParam("query", "test"))
-               .andExpect(status().is(200))
-               .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+                .queryParam("query", "test"))
+                .andExpect(status().is(200))
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+        ;
+    }
+
+    @Test
+    @SneakyThrows
+    void shouldFetchNowPlaying() {
+        var info = new NowPlaying("Mr & Mr - super Song", "cosmo");
+        when(dataService.fetchNowPlayingOnStation(100)).thenReturn(info);
+
+        mockMvc.perform(MockMvcRequestBuilders.get("/nowPlaying")
+                .queryParam("stationId", 100 + ""))
+                .andExpect(status().is(200))
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.title").value("Mr & Mr - super Song"))
+                .andExpect(jsonPath("$.stationName").value("cosmo"))
         ;
     }
 }
