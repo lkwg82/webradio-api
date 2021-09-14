@@ -104,7 +104,9 @@
                         <user>1001</user>
                     </container>
                     <from>
-                        <image>adoptopenjdk/openjdk16-openj9:alpine-jre</image>
+                        <image>
+                            adoptopenjdk/openjdk16-openj9:alpine-jre@sha256:739d0d88d54eff4ac30d127ed0f19e198013b95c2c5ab7adc77938d10955f620
+                        </image>
                     </from>
                     <to>
                         <image>lkwg82/webradio-api</image>

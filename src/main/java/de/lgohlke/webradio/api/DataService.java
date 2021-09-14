@@ -2,7 +2,6 @@ package de.lgohlke.webradio.api;
 
 import de.lgohlke.webradio.api.data.NowPlaying;
 import de.lgohlke.webradio.api.data.Result;
-import de.lgohlke.webradio.api.data.ResultMatch;
 import de.lgohlke.webradio.api.data.StationInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.web.client.RestTemplateBuilder;
@@ -21,66 +20,47 @@ import java.util.Optional;
 @Service
 @Slf4j
 class DataService {
-    private static final String API_KEEEEY = "7bce309a37dc2527104e5ab7b0641c9f20a76aae";
-
     private static RestTemplate buildWithRootUri(String uri) {
         return new RestTemplateBuilder()
                 .rootUri(uri)
-                .defaultHeader(HttpHeaders.USER_AGENT, "radio.de 4.14.0 (OnePlus/ONEPLUS A3003; Android 9; de_DE)")
+                .defaultHeader(HttpHeaders.USER_AGENT, "radio.de")
                 .defaultHeader(HttpHeaders.ACCEPT, MediaType.APPLICATION_JSON_VALUE)
                 .defaultHeader(HttpHeaders.ACCEPT_CHARSET, StandardCharsets.UTF_8.name())
                 .build();
     }
 
-    private final RestTemplate template = buildWithRootUri("https://api.radio.de");
-    private final RestTemplate prodApi = buildWithRootUri("https://prod.radio-api.net");
+    private final RestTemplate template = buildWithRootUri("https://prod.radio-api.net");
 
-    StationInfo fetchStationInfo(int stationId) {
-
-        var uri = UriComponentsBuilder.fromPath("/info/v2/search/station")
-                .queryParam("apikey", API_KEEEEY)
-                .queryParam("station", stationId)
-                .queryParam("streamcontentformats", "mp3,aac")
-                .queryParam("enrich", "true")
-                .queryParam("locale", "de_DE")
-                .build()
-                .toString();
-        try {
-            var responseEntity = template.getForEntity(uri, StationInfo.class);
-            return responseEntity
-                    .getBody();
-        } catch (InvalidMediaTypeException | HttpClientErrorException e) {
-            log.error(e.getMessage(), e);
+    StationInfo fetchStationInfo(String station) {
+        var stations = queryForStations(station);
+        if (stations.isEmpty()) {
             return new StationInfo();
         }
+        return stations.get(0);
     }
 
-    List<ResultMatch> queryForStations(String query) {
-        var uri = UriComponentsBuilder.fromPath("/info/v2/search/stationsonly")
-                .queryParam("apikey", API_KEEEEY)
-                .queryParam("query", query)
-                .queryParam("streamcontentformats", "mp3,aac")
-                .queryParam("enrich", "true")
-                .queryParam("locale", "de_DE")
-                .queryParam("pageindex", 1)
-                .queryParam("sizeperpage", "20")
-                .build()
-                .toString();
+    List<StationInfo> queryForStations(String query) {
+        var uri = UriComponentsBuilder.fromPath("/stations/search")
+                                      .queryParam("count", 10)
+                                      .queryParam("offset", 0)
+                                      .queryParam("query", query)
+                                      .build()
+                                      .toString();
         try {
             var responseEntity = template.getForEntity(uri, Result.class);
             return Optional.ofNullable(responseEntity.getBody())
-                    .map(Result::getMatches)
-                    .orElse(List.of());
+                           .map(Result::getMatches2)
+                           .orElse(List.of());
         } catch (InvalidMediaTypeException | HttpClientErrorException e) {
             log.error(e.getMessage(), e);
             return List.of();
         }
     }
 
-    public NowPlaying fetchNowPlayingOnStation(int stationId) {
+    public NowPlaying fetchNowPlayingOnStation(String stationId) {
         var url = "/stations/now-playing?stationIds=" + stationId;
         try {
-            var responseEntity = prodApi.getForEntity(url, NowPlaying[].class);
+            var responseEntity = template.getForEntity(url, NowPlaying[].class);
 
             var nowPlayings = responseEntity.getBody();
             if (null == nowPlayings) {
@@ -95,5 +75,4 @@ class DataService {
             return new NowPlaying(e.getMessage(), "client error");
         }
     }
-
 }

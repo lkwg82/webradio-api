@@ -16,11 +16,11 @@ public class DataControllerTest {
     @Test
     @SneakyThrows
     void shouldCallDataServiceOnlyOnce() {
-        when(service.fetchStationInfo(100)).thenReturn(new StationInfo());
+        when(service.fetchStationInfo("test")).thenReturn(new StationInfo());
 
-        controller.getStationInfo(100);
-        controller.getStationInfo(100);
+        controller.getStationInfo("test");
+        controller.getStationInfo("test");
 
-        verify(service, times(1)).fetchStationInfo(100);
+        verify(service, times(1)).fetchStationInfo("test");
     }
 }

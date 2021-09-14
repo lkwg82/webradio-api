@@ -18,9 +18,12 @@ public class QueryTest {
 
 //        mapper.writerWithDefaultPrettyPrinter()
 //              .writeValue(System.out, result);
+        assertThat(result.getTotalCount()).isEqualTo(30);
+        assertThat(result.getPlayables()).hasSize(10);
 
-        assertThat(result.getMatches()
-                         .get(0)
-                         .getId()).isEqualTo(36918);
+        var stationInfo = result.getMatches2()
+                                .get(0);
+        assertThat(stationInfo.getId()).isEqualTo("cosmo");
+        assertThat(stationInfo.getStreams()).hasSize(4);
     }
 }

@@ -20,9 +20,10 @@ public class ContainerIT {
         var ip = api.getHost();
         var port = api.getFirstMappedPort();
         String rootUri = "http://" + ip + ":" + port;
-        var template = new RestTemplateBuilder().rootUri(rootUri).build();
+        var template = new RestTemplateBuilder().rootUri(rootUri)
+                                                .build();
 
-        var responseEntity = template.getForEntity("/stationInfo?stationId=2459", StationInfo.class);
+        var responseEntity = template.getForEntity("/stationInfo?stationId=cosmo", StationInfo.class);
         var stationInfo = responseEntity.getBody();
 
         assertThat(stationInfo).isNotNull();

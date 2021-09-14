@@ -8,9 +8,8 @@ import java.util.List;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class StationInfo {
+    private String id = "";
     private String logo300x300 = "";
     private String name = "";
-    private String description = "";
-    private String shortDescription = "";
-    private List<StreamUrl> streamUrls = List.of();
+    private List<StreamUrl> streams = List.of();
 }

@@ -7,19 +7,17 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class DataServiceThirdPartyIT {
 
     private final DataService dataService = new DataService();
-    private final int stationId_for_Cosmos = 2459;
-    private final int stationId_invalid = -1;
 
     @Test
     void shouldGetStationInfo() {
-        var stationInfo = dataService.fetchStationInfo(stationId_for_Cosmos);
+        var stationInfo = dataService.fetchStationInfo("cosmo");
 
         assertThat(stationInfo.getLogo300x300()).isNotBlank();
     }
 
     @Test
     void shouldFailGetStationInfo() {
-        var stationInfo = dataService.fetchStationInfo(stationId_invalid);
+        var stationInfo = dataService.fetchStationInfo("");
 
         assertThat(stationInfo.getLogo300x300()).isBlank();
     }
@@ -33,17 +31,16 @@ public class DataServiceThirdPartyIT {
 
     @Test
     void shouldGetNowPlaying() {
-        var result = dataService.fetchNowPlayingOnStation(stationId_for_Cosmos);
+        var result = dataService.fetchNowPlayingOnStation("cosmo");
 
         assertThat(result.getStationName()).isNotEmpty();
         assertThat(result.getTitle()).isNotEmpty();
     }
 
     @Test
-    void shouldGetNowPlaying_with_empty() {
-        var result = dataService.fetchNowPlayingOnStation(stationId_invalid);
+    void shouldFailGetNowPlaying_with_empty() {
+        var result = dataService.fetchNowPlayingOnStation("");
 
-        assertThat(result.getStationName()).isEqualTo("<emptyStationname>");
-        assertThat(result.getTitle()).isEqualTo("<emptyTitle>");
+        assertThat(result.getStationName()).isEqualTo("client error");
     }
 }

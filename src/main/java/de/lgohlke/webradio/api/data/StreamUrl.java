@@ -10,9 +10,6 @@ import java.net.URI;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @ToString
 class StreamUrl {
-    private URI streamUrl = URI.create("");
-    private int sampleRate = 0;
-    private String playingMode = "";
-    private String streamContentFormat = "";
-    private String streamStatus = "";
+    private URI url = URI.create("");
+    private String contentFormat = "";
 }
