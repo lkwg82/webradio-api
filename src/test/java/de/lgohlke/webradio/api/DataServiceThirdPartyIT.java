@@ -9,20 +9,6 @@ public class DataServiceThirdPartyIT {
     private final DataService dataService = new DataService();
 
     @Test
-    void shouldGetStationInfo() {
-        var stationInfo = dataService.fetchStationInfo("cosmo");
-
-        assertThat(stationInfo.getLogo300x300()).isNotBlank();
-    }
-
-    @Test
-    void shouldFailGetStationInfo() {
-        var stationInfo = dataService.fetchStationInfo("");
-
-        assertThat(stationInfo.getLogo300x300()).isBlank();
-    }
-
-    @Test
     void shouldGetQueryForCosmos() {
         var result = dataService.queryForStations("COSMOS");
 

@@ -31,14 +31,6 @@ class DataService {
 
     private final RestTemplate template = buildWithRootUri("https://prod.radio-api.net");
 
-    StationInfo fetchStationInfo(String station) {
-        var stations = queryForStations(station);
-        if (stations.isEmpty()) {
-            return new StationInfo();
-        }
-        return stations.get(0);
-    }
-
     List<StationInfo> queryForStations(String query) {
         var uri = UriComponentsBuilder.fromPath("/stations/search")
                                       .queryParam("count", 10)

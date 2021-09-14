@@ -4,6 +4,8 @@ import de.lgohlke.webradio.api.data.StationInfo;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
@@ -16,11 +18,11 @@ public class DataControllerTest {
     @Test
     @SneakyThrows
     void shouldCallDataServiceOnlyOnce() {
-        when(service.fetchStationInfo("test")).thenReturn(new StationInfo());
+        when(service.queryForStations("test")).thenReturn(List.of(new StationInfo()));
 
         controller.getStationInfo("test");
         controller.getStationInfo("test");
 
-        verify(service, times(1)).fetchStationInfo("test");
+        verify(service, times(1)).queryForStations("test");
     }
 }
