@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class ContainerIT {
     @Container
     public GenericContainer api = new GenericContainer<>("lkwg82/webradio-api")
-            .withExposedPorts(8080);
+            .withExposedPorts(8081);
 
     @Test
     void test() {

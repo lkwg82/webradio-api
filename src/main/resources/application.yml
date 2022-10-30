@@ -1,2 +1,3 @@
 #logging.level.ROOT: debug
 server.compression.enabled: true
+server.port: 8081
