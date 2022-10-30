@@ -122,7 +122,7 @@
                     </container>
                     <from>
                         <image>
-                            adoptopenjdk/openjdk16-openj9:alpine-jre@sha256:739d0d88d54eff4ac30d127ed0f19e198013b95c2c5ab7adc77938d10955f620
+                            eclipse-temurin:19-jre-alpine@sha256:2255cb62b67d6246eacb462e8ea8ab4d23f879d24298e0dfa257ca2457de74a8
                         </image>
                     </from>
                     <to>
