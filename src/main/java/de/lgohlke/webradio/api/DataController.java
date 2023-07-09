@@ -73,10 +73,10 @@ class DataController {
         // language=HTML
         return """
                 <ul>
-                <li><a href="/nowPlaying?stationId=cosmo">/nowPlaying?stationId=cosmo</a></li>
-                <li><a href="/queryStations?query=cosmo">/queryStations?query=cosmo</a></li>
-                <li><a href="/stationInfo?stationId=cosmo">/stationInfo?stationId=cosmo</a></li>
-                   </ul>             
+                    <li><a href="/nowPlaying?stationId=cosmo">/nowPlaying?stationId=cosmo</a></li>
+                    <li><a href="/queryStations?query=cosmo">/queryStations?query=cosmo</a></li>
+                    <li><a href="/stationInfo?stationId=cosmo">/stationInfo?stationId=cosmo</a></li>
+                </ul>
                 """;
     }
 }
