@@ -51,13 +51,13 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>32.0.0-jre</version>
+            <version>32.1.1-jre</version>
         </dependency>
 
         <dependency>
             <groupId>org.testcontainers</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>1.17.6</version>
+            <version>1.18.3</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -114,6 +114,7 @@
                 <artifactId>jib-maven-plugin</artifactId>
                 <version>3.3.1</version>
                 <configuration>
+                    <skip>true</skip>
                     <container>
                         <format>Docker</format>
                         <workingDirectory>/data</workingDirectory>
