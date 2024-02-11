@@ -114,7 +114,7 @@
                 <artifactId>jib-maven-plugin</artifactId>
                 <version>3.4.1</version>
                 <configuration>
-                    <skip>true</skip>
+                    <skip>false</skip>
                     <container>
                         <format>Docker</format>
                         <workingDirectory>/data</workingDirectory>
